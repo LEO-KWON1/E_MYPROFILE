@@ -29,9 +29,7 @@ const nextConfig = {
       },
     ];
   },
-  output: 'export',
-  basePath: '/e-myprofile',
-  assetPrefix: '/e-myprofile',
+  output: 'export'
 }
 
 module.exports = nextConfig 

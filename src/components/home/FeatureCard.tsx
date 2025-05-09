@@ -9,7 +9,7 @@ interface FeatureCardProps {
   index: number;
 }
 
-const MotionCard = motion(Card);
+const MotionCard = motion.create(Card);
 
 const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description, index }) => {
   return (
