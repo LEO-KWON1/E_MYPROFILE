@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Container, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const DigitalCardSection: React.FC = () => {
   return (
@@ -59,15 +60,12 @@ const DigitalCardSection: React.FC = () => {
                 overflow: 'hidden',
               }}
             >
-              <Box
-                component="img"
-                src="/images/ex1.jpg"
-                alt="Digital Card Front"
-                sx={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
-                }}
+              <Image
+                src="images/ex1.jpg"
+                alt="디지털 명함 예시 1"
+                width={300}
+                height={200}
+                className="rounded-lg shadow-lg"
               />
             </Box>
 
@@ -85,15 +83,12 @@ const DigitalCardSection: React.FC = () => {
                 overflow: 'hidden',
               }}
             >
-              <Box
-                component="img"
-                src="/images/ex2.jpg"
-                alt="Digital Card Back"
-                sx={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
-                }}
+              <Image
+                src="images/ex2.jpg"
+                alt="디지털 명함 예시 2"
+                width={300}
+                height={200}
+                className="rounded-lg shadow-lg"
               />
             </Box>
           </motion.div>

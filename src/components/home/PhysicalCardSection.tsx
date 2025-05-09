@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Container, Grid, Typography, Button, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
 import { CheckCircle } from '@mui/icons-material';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const MotionBox = motion.create(Box);
 
@@ -17,16 +18,12 @@ const PhysicalCardSection: React.FC = () => {
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             >
-              <Box
-                component="img"
-                src="/images/real.jpg"
-                alt="Physical Business Card"
-                sx={{
-                  width: '100%',
-                  maxWidth: 500,
-                  borderRadius: 2,
-                  boxShadow: '0 10px 30px rgba(0,0,0,0.1)',
-                }}
+              <Image
+                src="images/real.jpg"
+                alt="실물 명함"
+                width={400}
+                height={300}
+                className="rounded-lg shadow-xl"
               />
             </MotionBox>
           </Grid>

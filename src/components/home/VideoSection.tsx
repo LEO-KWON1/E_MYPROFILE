@@ -20,18 +20,9 @@ const VideoSection: React.FC = () => {
           }}
         >
           <video
-            src="/images/how_to_use.mp4"
+            src="images/how_to_use.mp4"
             controls
-            style={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              width: '100%',
-              height: '100%',
-              objectFit: 'cover',
-              borderRadius: 'inherit',
-              background: '#000',
-            }}
+            className="w-full rounded-lg shadow-xl"
           />
         </Box>
       </Container>

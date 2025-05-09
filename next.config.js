@@ -9,6 +9,8 @@ const nextConfig = {
   },
   output: 'export',
   basePath: '/E_MYPROFILE',
+  assetPrefix: '/E_MYPROFILE/',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig 

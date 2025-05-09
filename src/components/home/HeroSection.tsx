@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Box, Container, Grid, Typography, Button } from '@mui/material';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const txts = [
   '디지털 명함으로',
@@ -82,7 +83,7 @@ const HeroSection: React.FC = () => {
         position: 'relative',
         overflow: 'hidden',
         minHeight: 400,
-        backgroundImage: 'url(/images/phone.jpg)',
+        backgroundImage: 'url(images/phone.jpg)',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
         backgroundSize: 'cover',
@@ -108,11 +109,12 @@ const HeroSection: React.FC = () => {
         }}
       >
         {showScreenImage && (
-          <Box
-            component="img"
-            src="/images/ex2.jpg"
-            alt="휴대폰 화면"
-            sx={{ width: '100%', height: '100%', objectFit: 'cover' }}
+          <Image
+            src="images/ex2.jpg"
+            alt="디지털 명함 예시 2"
+            width={300}
+            height={200}
+            className="rounded-lg shadow-lg"
           />
         )}
       </Box>
@@ -121,8 +123,8 @@ const HeroSection: React.FC = () => {
         component="img"
         id="moving-image"
         ref={imageRef}
-        src="/images/ex1.jpg"
-        alt="Moving Image"
+        src="images/ex1.jpg"
+        alt="디지털 명함 예시 1"
         sx={{
           width: 120,
           height: 120,

@@ -37,7 +37,7 @@ const FrogEasterEgg = () => {
           className="fixed top-1/2 left-1/2 z-50 w-16 h-16 cursor-pointer"
         >
           <Image
-            src="/images/crazy_frog.png"
+            src="images/crazy_frog.png"
             alt="귀여운 두꺼비"
             width={64}
             height={64}
