@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Container } from '@mui/material';
 import Header from './Header';
 import Footer from './Footer';
+import FrogEasterEgg from '../FrogEasterEgg';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -17,6 +18,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         </Container>
       </Box>
       <Footer />
+      <FrogEasterEgg />
     </Box>
   );
 };
