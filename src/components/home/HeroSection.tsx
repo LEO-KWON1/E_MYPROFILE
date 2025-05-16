@@ -5,9 +5,9 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 const txts = [
-  '디지털 명함으로',
-  '브랜드 가치를',
-  '높이세요',
+  '한 번의 탭으로',
+  '나를 표현하고',
+  '쉽게, 확실하게, 빠르게 보여주는',
 ];
 
 // 휴대폰 화면 영역(대략 중앙, 크기 180x320px, 필요시 조정)

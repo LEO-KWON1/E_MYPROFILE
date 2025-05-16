@@ -12,7 +12,7 @@ import {
 const steps = [
   {
     icon: <PersonAdd sx={{ fontSize: 40 }} />,
-    title: '회원가입',
+    title: '구독하기',
     description: '간단한 회원가입으로 시작하세요.',
   },
   {
@@ -32,7 +32,7 @@ const steps = [
   },
   {
     icon: <Campaign sx={{ fontSize: 40 }} />,
-    title: '마케팅 시작',
+    title: '푸시 메시지',
     description: '효과적인 마케팅을 시작하세요.',
   },
 ];

@@ -87,7 +87,7 @@ const Header: React.FC = () => {
                     component={Link}
                     href="/signup"
                   >
-                    무료 회원가입
+                    무료 구독하기
                   </Button>
                 </MenuItem>
               </Menu>
@@ -114,7 +114,7 @@ const Header: React.FC = () => {
                 component={Link}
                 href="/signup"
               >
-                무료 회원가입
+                무료 구독하기
               </Button>
             </Box>
           )}

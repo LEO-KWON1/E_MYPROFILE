@@ -22,6 +22,11 @@ const features = [
     description: '나만의 고유한 URL로 명함을 공유하세요.',
   },
   {
+    icon: <Message sx={{ fontSize: 40 }} />,
+    title: 'CRM 마케팅',
+    description: '푸시 메시지로 효과적인 마케팅을 진행하세요.',
+  },
+  {
     icon: <Store sx={{ fontSize: 40 }} />,
     title: '브랜드 공간 구성',
     description: '나만의 브랜드 공간을 자유롭게 꾸며보세요.',
@@ -30,11 +35,6 @@ const features = [
     icon: <Share sx={{ fontSize: 40 }} />,
     title: 'SNS/쇼핑몰 연동',
     description: '다양한 SNS와 쇼핑몰 링크를 한 곳에서 관리하세요.',
-  },
-  {
-    icon: <Message sx={{ fontSize: 40 }} />,
-    title: 'CRM 마케팅',
-    description: '푸시 메시지로 효과적인 마케팅을 진행하세요.',
   },
   {
     icon: <Analytics sx={{ fontSize: 40 }} />,

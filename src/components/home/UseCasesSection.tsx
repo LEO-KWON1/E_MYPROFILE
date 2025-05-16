@@ -11,7 +11,7 @@ import {
 const useCases = [
   {
     icon: <Person sx={{ fontSize: 40 }} />,
-    title: '프리랜서',
+    title: '개인',
     description: '포트폴리오와 연락처를 한 곳에서 관리하고 공유하세요.',
     color: '#3C9EE7',
   },
@@ -29,7 +29,7 @@ const useCases = [
   },
   {
     icon: <Campaign sx={{ fontSize: 40 }} />,
-    title: '인플루언서',
+    title: '대학생',
     description: '다양한 채널의 콘텐츠를 한 곳에서 관리하세요.',
     color: '#4CAF50',
   },
